@@ -1,0 +1,4 @@
+
+path_to_create_folders: ["data/output"]
+path_to_load_texts: "data/input/corpus/*.txt"
+path_to_save_inverted_index: "data/output/inverted_index.json"
