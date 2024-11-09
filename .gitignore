@@ -162,7 +162,7 @@ cython_debug/
 #.idea/
 
 # Files
-*.txt
+data/input/corpus/*.txt
 *.pdf
 *.ipynb
 *.dat

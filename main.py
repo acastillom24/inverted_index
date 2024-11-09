@@ -43,6 +43,6 @@ def main(terms):
     pp(sorted(term_search(inverted_index, terms)))
 
 if __name__ == "__main__":
-    terms = input("Ingrese el termino(s) a buscar: ")
+    terms = input("Ingrese el termino(s) a buscar: ").encode('utf-8').decode('utf-8')
     terms_list = re.split(r'[ ,]+', terms)
     main(terms_list)
